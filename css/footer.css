@@ -1,0 +1,13 @@
+.footer {
+    width: 100vw;
+    height: 6.5rem;
+
+    background-color: var(--cor-secundaria);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__creditos {
+    color: var(--cor-fonte-clara);
+}

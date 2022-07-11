@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 295px;
+    padding-top: 2.5rem; 
+
+    background-image: url(../img/Forma\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: -0.5rem top;
+    background-size: contain;
+}
+.header__navegacao {
+    width: calc(100% - 3rem);
+    height: 40px;
+    padding: 0 1.5rem;
+
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.header__lista-navegacao {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.header__item {
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* para paginas que aparecem o link de usuario na navegação */
+.header__link-usuario {
+    padding-right: 0.75rem;
+}
+/* ------------------------------- */
+

@@ -1,0 +1,30 @@
+.telaInicial {
+    background-color: var(--cor-primaria);
+    color: var(--cor-fonte-clara);
+
+    background-image: url(../img/Forma\ 2.svg), url(../img/Ilustracao-cao-gato.svg);
+    background-position: calc(100vw - 69.3px) 199px, calc(45vw - 123px) 518px;
+    background-repeat: no-repeat;
+ 
+}
+.telaInicial__principal {
+    padding-top: 10.5rem;
+    padding: 10.5rem 1.5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 311px;
+}
+.telaInicial__titulo {
+    padding-top: 1.5rem;
+}
+.telaInicial__descricao {
+    padding: 1rem 2rem; /*3.5rem - 1.5rem(body)*/
+    text-align: center;
+}
+.telaInicial__botao {
+    width: 11.25rem;
+    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    text-align: center;
+}

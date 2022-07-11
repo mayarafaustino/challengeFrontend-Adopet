@@ -1,0 +1,16 @@
+:root {
+
+    --cor-primaria: #3772FF;
+    --cor-secundaria: #36D6AD;
+    --cor-terciaria: #FC7071;
+    --cor-neutro-escuro: #737380;
+    --cor-neutro-medio: #BCBCBC;
+    --cor-neutro-claro: #F6F6F6; 
+    --cor-fonte-escura: #1D1D26; 
+    --cor-fonte-clara: #FFFFFF;
+    
+    /* --cor-clara-logo: #FCF0E3; */
+
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+}
