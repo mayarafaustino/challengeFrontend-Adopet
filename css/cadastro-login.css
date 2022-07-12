@@ -1,4 +1,4 @@
-.telaCadastro {
+.cadastro-login {
     height: 917px;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
 }
 
-.telaCadastro__principal {
+.cadastro-login__principal {
     margin-bottom: auto;
     padding: 9.75rem 1.5rem 0 1.5rem;
 
@@ -17,19 +17,29 @@
     align-items: center;
     gap: 1.5rem;
 }
-.telaCadastro__descricao {
+.cadastro-login__descricao {
+    color: var(--cor-primaria);
     text-align: center;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: .5rem;
 }
-.telaCadastro__formulario {
+.cadastro-login__descricao--login {
+    height: 4.5rem;
+    justify-content: center;
+}
+.cadastro-login__formulario {
     width: 100%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.25rem;
+}
+.cadastro-login__linkRecuperarSenha {
+    font-size: 12px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
 }
