@@ -1,0 +1,35 @@
+.telaCadastro {
+    height: 917px;
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url(../img/Forma2rotacionada.svg);
+    background-position: left 0 top 368px;
+    background-repeat: no-repeat;
+}
+
+.telaCadastro__principal {
+    margin-bottom: auto;
+    padding: 9.75rem 1.5rem 0 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.telaCadastro__descricao {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+.telaCadastro__formulario {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}

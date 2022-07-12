@@ -4,11 +4,10 @@
 
     background-image: url(../img/Forma\ 2.svg), url(../img/Ilustracao-cao-gato.svg);
     background-position: calc(100vw - 69.3px) 199px, calc(45vw - 123px) 518px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat, no-repeat;
  
 }
 .telaInicial__principal {
-    padding-top: 10.5rem;
     padding: 10.5rem 1.5rem 0 1.5rem;
     display: flex;
     flex-direction: column;

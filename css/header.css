@@ -6,11 +6,21 @@
     height: 295px;
     padding-top: 2.5rem; 
 
+}
+.header--bg {
     background-image: url(../img/Forma\ 1.svg);
     background-repeat: no-repeat;
     background-position: -0.5rem top;
     background-size: contain;
+
 }
+.header--bg2 {
+    background-image: url(../img/Patas.svg), url(../img/Forma\ 1.svg) ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right -24px top -10px, -0.5rem top;
+    background-size: 189.96px 243.41px, contain;
+}
+
 .header__navegacao {
     width: calc(100% - 3rem);
     height: 40px;
