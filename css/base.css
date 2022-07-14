@@ -3,7 +3,7 @@ body {
     font-size: 16px;
 }
 
-h1 {
+.titulo1 {
     font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 500;
@@ -11,7 +11,7 @@ h1 {
     line-height: 72px;    
 }
 
-h2 {
+.titulo2 {
     font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 500;
@@ -19,7 +19,7 @@ h2 {
     line-height: 48px;
 }
 
-h3 {
+.titulo3 {
     font-family: var(--fonte-secundaria);
     font-style: normal;
     font-weight: 500;
@@ -27,7 +27,7 @@ h3 {
     line-height: 48px;
 }
 
-h4, .botao{
+.titulo4, .botao{
     font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 600;
@@ -35,7 +35,7 @@ h4, .botao{
     line-height: 24px;
 }
 
-p, label {
+p, .paragrafo, label {
     font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 400;
