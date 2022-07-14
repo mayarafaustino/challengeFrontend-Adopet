@@ -1,0 +1,45 @@
+
+.ficha {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+.ficha__box-imagem {
+    display: flex;
+    align-items: center;
+}
+.ficha__imagem {
+    width: 9.25rem;
+    height: 9.5rem;
+}
+.ficha__descricao {
+    color: var(--cor-neutro-escuro);
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.ficha__titulo {
+    color: var(--cor-primaria);
+    line-height: 20px;
+}
+.ficha__caracteristicasAnimal {
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+.ficha__cidade {
+    font-size: 12px;
+    line-height: 16px;
+}
+.ficha__contato {
+    font-size: 10px;
+    line-height: 16px;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.ficha__link {
+    display: flex;
+    align-items: center;
+}
