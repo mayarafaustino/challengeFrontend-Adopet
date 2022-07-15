@@ -5,7 +5,6 @@
     width: 100%;
     height: 295px;
     padding-top: 2.5rem; 
-
 }
 .header--bg {
     background-image: url(../img/Forma\ 1.svg);
@@ -20,7 +19,6 @@
     background-position: right -24px top -10px, -0.5rem top;
     background-size: 189.96px 243.41px, contain;
 }
-
 .header__navegacao {
     width: calc(100% - 3rem);
     height: 40px;
@@ -39,13 +37,51 @@
     display: flex;
     width: 1.5rem;
     height: 1.5rem;
+    padding: 0 1rem;
     justify-content: center;
     align-items: center;
 }
-
-/* para paginas que aparecem o link de usuario na navegação */
+.header__item--logo { 
+    display: none;
+    /* para telas maiores que aparece o logo na navegacao */
+}
 .header__link-usuario {
     padding-right: 0.75rem;
+    /* para paginas que aparecem o link de usuario na navegacao */
 }
-/* ------------------------------- */
+
+
+
+
+@media screen and (min-width: 600px){
+    .header {
+        height: 29.4rem;
+        padding-top: 4rem; 
+    }
+    .header__item--logo {
+        padding: 0 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header--bg {
+        background-size: 35rem;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .header__navegacao {
+        width: calc(100% - 20rem);
+        padding: 0 10rem;
+    }
+    .header__lista-navegacao {
+        width: 20%;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .header__item--logo {
+        padding: 0 2rem 0 0;
+    }
+}
 
